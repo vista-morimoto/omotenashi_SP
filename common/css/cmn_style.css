@@ -1,0 +1,403 @@
+@charset "Shift-JIS";
+/*
+ * cmn_style.css
+ *
+ *  version --- 3.4
+ *  updated --- 2011/09/06
+ *  function --- Zen-Coding Like Name for Fastest Coder
+ */
+
+
+/* !Base Fonts -------------------------------------------------------------- */
+a {
+	color:#FF3366;
+	text-decoration: none;
+	/*text-shadow: 0 1px 0px #000;*/
+}
+a:visited {}
+a:hover,
+a:active,
+a:focus { text-decoration: none;}
+
+.fwN { font-weight: normal;}
+.fwB { font-weight: bold;}
+.fzSS  { font-size:x-small;}/* base 12px ->  8px */
+.fzS   { font-size:small;}/* base 12px -> 10px */
+.fzM   { font-size:medium;}
+.fzL   { font-size:large;}/* base 12px -> 14px */
+.fzLL  { font-size:x-large;}/* base 12px -> 16px */
+.fzLLL { font-size:xx-large;}/* base 12px -> 18px */
+
+
+/*
+fwN { font-weight: normal;}
+.fwB { font-weight: bold;}
+.fzSS  { font-size:  78%;}
+.fzS   { font-size:  85%;}
+.fzM   { font-size: 100%;}
+.fzL   { font-size: 115%;}
+.fzLL  { font-size: 130%;}
+.fzLLL { font-size: 143%;}
+*/	
+	
+
+sup   { font-size: 78%; vertical-align: top;}
+sub   { font-size: 78%; vertical-align: baseline;}
+
+
+/* !Width ------------------------------------------------------------------- */
+/* 960px Grid */
+.w960   { width: 960px;}
+.w800	{ width: 800px;}
+.w640	{ width: 640px;}
+.w480	{ width: 480px;}
+.w320	{ width: 320px;}
+.w160	{ width: 160px;}
+
+.wHalf  { width: 48%;}
+.wTri   { width: 33%;}
+.wQuart { width: 24%;}
+.wFull  { width: 99.9%;}
+.wMax   { width: 100%;}
+
+.w03per { width: 3%  !important;}
+.w05per { width: 5%  !important;}
+.w10per { width: 10% !important;}
+.w13per { width: 13% !important;}
+.w15per { width: 15% !important;}
+.w20per { width: 20% !important;}
+.w25per { width: 25% !important;}
+.w30per { width: 30% !important;}
+.w35per { width: 35% !important;}
+.w40per { width: 40% !important;}
+.w45per { width: 45% !important;}
+.w50per { width: 50% !important;}
+
+
+/* !Tools ------------------------------------------------------------------- */
+.clear { clear: both;}
+.block { display: block;}
+.hide  { display: none;}
+.bgN   { background: none !important;}
+.tdU   { text-decoration: underline;}
+.tdN   { text-decoration: none;}
+.atode { border: 2px solid #96c; padding: 10px; text-align: center; background-color: #f9f; font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", Osaka-mono, monospace; font-size: 30px; color: #fff;}
+
+/* !JavaScript -------------------------------------------------------------- */
+.over { /* ロールオーバー呼び出し用 */ }
+.png  { /* DD_belatedPNG.js呼び出し用 */ }
+.js_popup_width_height  {}
+.js_page_print   {}
+.js_window_close {}
+
+/*--------------------------------------
+	color
+---------------------------------------*/
+.black {color:black;}
+.silver {color:silver;}
+.gray {color:#A0A0A0;}
+.white {color:white;}
+.maroon {color:maroon;}
+.red {color:#fe7b95;}
+.purple {color:purple;}
+.fuchsia {color:fuchsia;}
+.green {color:#55b878;}
+.lime {color:lime;}
+.olive {color:olive;}
+.yellow {color:#ff6600;}
+.navy {color:navy;}
+.blue {color:#0033ff;}
+.teal {color:teal;}
+.aqua {color:aqua;}
+.darkgreen{color:#006666;}
+.orange{color:#ff3300;}
+.yellowgreen{color:#33cc00;}
+.skyblue{color:#67a8d5;}
+
+
+/*--------------------------------------
+	btns
+---------------------------------------*/
+.TelBlock {
+	margin:10px 15px 15px 15px;
+}
+.TelBlock a {
+	font-size:18px;
+	
+	border: 1px solid #FF9900;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	
+	font-size:16px;
+	font-weight:bold;
+	color: #ffffff;
+	text-align:center;
+
+	padding:13px 0;
+	width:100%;
+
+	-moz-text-shadow: 0 1px 1px #D97703;
+	-webkit-text-shadow: 0 1px 1px #D97703;
+	text-shadow: 0 1px 1px #D97703;
+	
+	background: url(../img/ico_telWhite.png) 20px center no-repeat, #FFB74C;
+	/* Safari,Google Chrome用 */  
+	
+	-webkit-background-size: 21px 26px,auto;
+	-moz-background-size: 21px 26px,auto;
+	background-size: 21px 26px,auto;
+	
+	display:block;
+}
+
+/*20130128追加---*/
+.EmailBlock {
+	margin:10px 15px 15px 15px;
+}
+.EmailBlock a {
+	font-size:18px;
+	
+	border: 1px solid #4E50FE;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	
+	font-size:16px;
+	font-weight:bold;
+	color: #ffffff;
+	text-align:center;
+
+	padding:13px 0;
+	width:100%;
+
+	-moz-text-shadow: 0 1px 1px #4343FE;
+	-webkit-text-shadow: 0 1px 1px #4343FE;
+	text-shadow: 0 1px 1px #4343FE;
+	
+	background: url(../img/ico_mailWhite.png) 20px center no-repeat, #6D93F3;
+	/* Safari,Google Chrome用 */  
+	
+	-webkit-background-size: 26px 20px,auto;
+	-moz-background-size: 26px 20px,auto;
+	background-size: 26px 20px,auto;
+	
+	display:block;
+}
+/*20130128追加END--*/
+
+.closing {
+	background:#FFCCCC;
+	border:1px solid #C00;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	color:#C00;
+	font-weight:bold;
+	margin:10px 15px 15px 15px;
+	padding:13px 8px;
+	}
+
+.Pinking {
+	background:#FFE8EF;
+	border:1px solid #FFCADA;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	margin:10px 15px 15px 15px;
+	padding:13px 8px;
+	}
+	.Pinking dt {
+		border-bottom:1px solid #FFCADA;
+		}
+
+.FootToiawase {
+	background: -webkit-gradient(linear, left top, left bottom, from(#87A6F5), to(#6D93F3));
+	background: -moz-linear-gradient(top, #87A6F5, #6D93F3);
+	}
+.FootToiawase dt {
+	background: -webkit-gradient(linear, left top, left bottom, from(#3066EA), to(#0000FF));
+	background: -moz-linear-gradient(top, #3066EA, #0000FF);
+	text-align:center;
+	color:#FFF;
+	font-weight:bold;
+	padding:10px 5px;
+	border-bottom:1px solid #4E50FE;
+}
+.FootToiawase dd {
+	border-top:1px solid #0101FF;
+	padding:10px 5px;
+	text-align:center;
+	font-weight:bold;
+	box-shadow: 0 2px 1px #5088D2 inset; 
+	-moz-box-shadow: 0 2px 1px #5088D2 inset;　/* Firefox用 */  
+	-webkit-box-shadow: 0 2px 1px #5088D2 inset;　/* Safari */
+}
+.FootToiawase dd a {
+	background: url(../img/ico_mailWhite.png) 20px center no-repeat;
+	-webkit-background-size: 26px 20px;
+	-moz-background-size: 26px 20px;
+	background-size: 26px 20px;
+	display:block;
+	}
+
+.FootToiawase dd {
+	border-top:1px solid #0101FF;
+	padding:10px 5px;
+	text-align:center;
+	font-weight:bold;
+	box-shadow: 0 2px 1px #5088D2 inset; 
+	-moz-box-shadow: 0 2px 1px #5088D2 inset;　/* Firefox用 */  
+	-webkit-box-shadow: 0 2px 1px #5088D2 inset;　/* Safari */
+}
+.FootToiawase dd a {
+	background: url(../img/ico_mailWhite.png) 20px center no-repeat;
+	-webkit-background-size: 26px 20px;
+	-moz-background-size: 26px 20px;
+	background-size: 26px 20px;
+	display:block;
+	}
+.Foot2Links {
+	display:table;
+	width:100%;
+	}
+	.Foot2Links li {
+		display:table-cell;
+		width:50%;
+		padding:10px;
+		}
+	.Foot2Links li a {
+		display:block;
+		width:85%;
+		float:left;
+		text-align:center;
+		color:#FFF;
+		font-size:16px;
+		font-weight:bold;
+	
+		border: 1px solid #FF9900;
+		-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+		border-radius: 6px;
+
+		padding:13px 0 13px 15px;
+		
+		-moz-text-shadow: 0 1px 1px #D97703;
+		-webkit-text-shadow: 0 1px 1px #D97703;
+		text-shadow: 0 1px 1px #D97703;
+		
+		line-height:24px;
+	}
+	.Foot2Links li:first-child a {
+		float:right;
+		}
+	.Foot2Links li.Access a {
+		background: url(../img/ico_access.png) 5px center no-repeat, #FFB74C;
+		-webkit-background-size: 19px 24px,auto;
+		-moz-background-size: 19px 24px,auto;
+		background-size: 19px 24px,auto;
+		}
+	.Foot2Links li.Home a {
+		background: url(../img/ico_home.png) 5px center no-repeat, #FFB74C;
+		-webkit-background-size: 24px 24px,auto;
+		-moz-background-size: 24px 24px,auto;
+		background-size: 24px 24px,auto;
+		}		
+/**/
+.BaseList {
+	margin:10px 10px 0;
+	border:1px solid #CCC;
+	}
+.BaseList li {
+	border-bottom:1px dotted #CCC;
+	}
+	.BaseList li:last-child {
+		border:none;
+	}
+.BaseList li a {
+	display:block;
+	text-decoration:none;
+	color:#FF558C;
+	padding:10px 5px;
+	background:url(../img/arrow_thin.png) 97% center no-repeat;
+	background-size:9px 26px;
+}
+
+/*table*/
+.IndexKikaku li {
+	display:table-cell;
+	}
+.inviTable {
+	width:100%;
+	}
+.inviTable td,
+.inviTable th {
+	border:1px solid #CCC;
+	padding:5px;
+	}
+.inviTable th {
+	background:#DDD;
+	}
+.interview dt {
+	background:#1E1E1E;
+	line-height:30px;
+	color:#FFF;
+	border-radius:5px 5px 0 0;
+	margin:10px 0 0 0;
+	padding:0 0 0 10px;
+	}
+.interview dd {
+		border:1px solid #CCCCCC;
+		padding:15px;
+	}
+/*color*/
+.colB {
+	background:#F574B1;
+	}
+.colH {
+  background:#7DBF4C;
+	}
+.colA {
+	background:#3ABFF0;
+	}
+.colT {
+	background:#F9BE00;
+	}
+.colC {
+	background:#8F65A8;
+	}
+.colP {
+	background:#AE3939;
+	}
+/* 動画
+------------------------- */
+/*.moveWrap {
+	padding:10px;
+	margin-right:10px;
+	}*/
+.moveWrap p {
+	position:relative;
+	width:100%;
+	padding-top:56.25%;
+	}
+	.moveWrap iframe {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		}
+
+/*ひとつ前へ戻る*/
+.beforePage a {
+	display:inline-block;
+	padding:10px;
+	margin:10px;
+
+	border:1px solid #8BCD38;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	background:#EEF8E1;
+}

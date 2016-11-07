@@ -1,0 +1,1 @@
+<p class="JoinBtn"><a href="http://www.com-forms.jp/appform/form/index/id/guidance" target="_blank">このイベントに参加する</a></p>

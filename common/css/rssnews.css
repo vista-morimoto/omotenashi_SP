@@ -1,0 +1,141 @@
+@charset "utf-8";
+
+#feed_blog{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;	
+}
+
+.blog-md{
+	position: relative;
+	width: 100%;
+	padding: 10px 20px 10px 0;
+	border-bottom: 1px dotted #e2e0d9;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;	
+}
+
+.blog-md:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.blog-image{
+	float: left;
+	overflow: hidden;
+	margin: 0 10px 0 0;
+}
+
+.blog-md .blog-image{
+	width: 80px;
+	height: 72px;
+}
+
+.blog-md .blog-image img{
+	/*width: 80px;*/
+	width:100%;
+}
+
+.blog-md a{
+	text-decoration: underline;
+}
+
+.title{
+	margin: 0 0 10px;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #ff3366;
+}
+
+#feed_opencampus .title{
+	margin: 0 0 5px;
+} 
+
+.text{
+	font-size: 12px;
+	color: #000;
+}
+
+#feed_blog .date{
+	color: #000;
+}
+
+.date{
+	float: right;
+	font-size: 12px;
+	color: #ccc;
+	margin: 0;
+}
+
+.blog-wrap{
+    background: rgba(0, 0, 0, 0) url("../img/arrow_thin.png") no-repeat scroll right center / 9px 26px;
+    display: block;
+}
+
+/* first-child */
+
+#feed_blog .blog-wrap:first-child .blog-image{
+	width: 120px;
+	height: 100px;
+}
+
+#feed_blog .blog-wrap:first-child .blog-image img{
+	/*width: 120px;*/
+	width:100%;
+	max-width: 120px;
+}
+
+#feed_blog .blog-wrap:first-child .title,#feed_blog .blog-wrap:first-child .text,
+#feed_blog .blog-wrap:first-child .date{
+	font-size: 14px;
+}
+
+/* last-child */
+
+#feed_blog .blog-wrap:last-child{
+	padding: 10px 0 0;
+	border-bottom: none;
+}
+
+
+.report{
+	width: 100%;
+	color : #fff;
+	line-height: 1.2;
+	letter-spacing: 0.2em;
+	background-color: #920a83;
+	background-image: url(../../images/index/listmk_title.png) ,url(../../images/index/titlebg.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: 5px center,left bottom;
+	background-size: 13px 23px,320px 80px;
+	border-top: solid #920a83 1px;
+	text-decoration: blink;
+}
+
+.report span {
+    border-top: 1px solid #fff;
+    display: block !important;
+    font-size: 18px !important;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.report-btn{
+	display:block;
+	padding:10px 15px;
+	margin-top: 10px;
+	border-radius: 5px;
+	color:#FFF;
+	border-bottom: 1px solid #86387F;
+	background: #68065F;
+	box-shadow: inset 0px 1px 2px 0px #57044D;
+}

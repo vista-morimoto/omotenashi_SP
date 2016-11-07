@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteBase /
+RewriteRule ^course2015/(.*)$ http://jikei-hospitality.ac.jp/course/ [R=301,L]

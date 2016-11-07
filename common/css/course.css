@@ -1,0 +1,1010 @@
+/*course_________________________________*/
+#wrapper h2 {
+	font-size:14px;
+	line-height:1.1;
+	}
+h2 span {
+	display:inline-block;
+	padding:5px 30px;
+	font-size:153%;
+	font-weight:bold;
+	}
+h3 {
+	padding:15px 0;
+	}
+	h3 span {
+		display:inline-block;
+		padding:0 30px;
+		font-size:108%;
+		font-weight:bold;
+		}
+
+#FirstArea,
+#voiceArea,
+#appliArea,
+#curricArea,
+#oshigotoArea,
+#workStudyArea {
+	margin:15px;
+	}
+#FirstArea > p {
+	margin-bottom:15px;
+	}
+#FirstArea dl {
+	background:#FFF;
+	margin-bottom:15px;
+	}
+#FirstArea dt {
+	color:#FFF;
+	font-size:123%;
+	line-height:1.5;
+	padding:5px 10px 0 5px;
+}
+#FirstArea dd {
+	padding:10px;
+}
+	.catchImg {
+		float:right;
+		width:100px;
+		border-radius:100px;
+		margin:0 0 15px 5px;
+		}
+#curricArea .listes {
+	padding:15px;
+}
+	#curricArea .listes li {
+		display:inline;
+		}
+
+	#curricArea .w-curriculum {
+		padding-top:55px;
+		margin-bottom:15px;
+		}
+	#curricArea .w-curriculum img {
+		width:100%;
+	}
+
+.SubHeadTit {
+	font-size:18px;
+	margin-bottom:5px;
+	}
+/*20150428追加*/
+/*エアライン*/
+.catAirLine #curricArea .listes dl {
+	margin-bottom:10px;
+	}
+	.catAirLine #curricArea .listes dt {
+		color:#3abff0;
+		font-weight:bold;
+		font-size:108%;
+		}
+	.catAirLine #curricArea .listes dd {
+		margin-right:10px;
+		}
+
+.catAirLine #curricArea .listes dt::before {
+    color: #3abff0;
+    content: "●";
+}
+/*___ブライダル___*/
+.catBridal h2 {
+	background:url(../../images/course/bg_secondtit_b.png) right bottom no-repeat;
+	border-bottom:3px solid #FF6699;
+	color:#FF6699;
+	}
+	.catBridal h2 span {
+		background:url(../../images/course/front_deco_b.png) left center no-repeat,
+		url(../../images/course/back_deco_b.png) right center no-repeat;
+		}
+.catBridal h3 {
+	border-bottom:3px solid #FF6699;
+	color:#FF6699;
+	}
+	.catBridal h3 span {
+		background:url(../../images/course/front_deco_b.png) left center no-repeat,
+		url(../../images/course/back_deco_b.png) right center no-repeat;
+		}
+.catBridal #FirstArea dt {
+	background:#FF669F;
+}
+	.catBridal #FirstArea dd {
+		border:3px solid #FF669F;
+		}
+	.catBridal #curricArea .listes li:before,
+	.catBridal #FirstArea dd li:before {
+		content: "●";
+		color:#FF669F;
+		}
+	.catBridal .w-curriculum {
+		background:url(../../images/course/ico_plus_b.gif) center top no-repeat;
+		}
+.catBridal .SubHeadTit {
+	color:#FF6699;	
+	}
+
+/*___セレモニー___*/
+.catCeremony h2 {
+	background:url(../../images/course/bg_secondtit_c.png) right bottom no-repeat;
+	border-bottom:3px solid #813D7B;
+	color:#813D7B;
+	}
+	.catCeremony h2 span {
+		background:url(../../images/course/front_deco_c.png) left center no-repeat,
+		url(../../images/course/back_deco_c.png) right center no-repeat;
+		}
+.catCeremony h3 {
+	border-bottom:3px solid #813D7B;
+	color:#813D7B;
+	}
+	.catCeremony h3 span {
+		background:url(../../images/course/front_deco_c.png) left center no-repeat,
+		url(../../images/course/back_deco_c.png) right center no-repeat;
+		}
+.catCeremony #FirstArea dt {
+	background:#813D7B;
+}
+	.catCeremony #FirstArea dd {
+		border:3px solid #813D7B;
+		}
+	.catCeremony #curricArea .listes li:before,
+	.catCeremony #FirstArea dd li:before {
+		content: "●";
+		color:#813D7B;
+		}
+	.catCeremony .w-curriculum {
+		background:url(../../images/course/ico_plus_c.gif) center top no-repeat;
+		}
+.catCeremony .SubHeadTit {
+	color:#813D7B;
+	}
+
+
+/*___ホテル___*/
+.catHotel h2 {
+	background:url(../../images/course/bg_secondtit_h.png) right bottom no-repeat;
+	border-bottom:3px solid #5CC120;
+	color:#5CC120;
+	}
+	.catHotel h2 span {
+		background:url(../../images/course/front_deco_h.png) left center no-repeat,
+		url(../../images/course/back_deco_h.png) right center no-repeat;
+		}
+.catHotel h3 {
+	border-bottom:3px solid #5CC120;
+	color:#5CC120;
+	}
+	.catHotel h3 span {
+		background:url(../../images/course/front_deco_h.png) left center no-repeat,
+		url(../../images/course/back_deco_h.png) right center no-repeat;
+		}
+.catHotel #FirstArea dt {
+	background:#5CC120;
+}
+	.catHotel #FirstArea dd {
+		border:3px solid #5CC120;
+		}
+	.catHotel #curricArea .listes li:before,
+	.catHotel #FirstArea dd li:before,
+	.catHotel #overseaArea li:before {
+		content: "●";
+		color:#5CC120;
+		}
+	.catHotel .w-curriculum {
+		background:url(../../images/course/ico_plus_h.gif) center top no-repeat;
+		}
+
+	.catHotel #overseaArea dl {
+		/*padding: 0 15px;*/
+	}
+	.catHotel #overseaArea dt {
+		color: #5CC120;
+	    font-size:120%;
+		border-bottom: 1px solid #5CC120;
+		padding-left:10px;
+	}
+	.catHotel #overseaArea dt span {
+		 font-family: "Romanesco";
+		 font-size:200%;		
+	}
+	.catHotel #overseaArea dd {
+		background: #ECFBE3;
+		border-bottom: 1px solid #5CC120;
+		padding: 10px 15px;
+	}
+	.catHotel #overseaArea ul {
+		margin: 10px 0;
+	}
+.catHotel #voiceArea.gTeacher dd.subTitle{
+		color:#5CC120;
+		}
+.catHotel #voiceArea section dd.subTitle {
+		color:#5CC120;
+		}
+	.catHotel .SubHeadTit {
+		color:#5CC120;
+		}
+	
+
+
+/*___トラベル___*/
+.catTravel h2 {
+	background:url(../../images/course/bg_secondtit_t.png) right bottom no-repeat;
+	border-bottom:3px solid #FFAC11;
+	color:#FFAC11;
+	}
+	.catTravel h2 span {
+		background:url(../../images/course/front_deco_t.png) left center no-repeat,
+		url(../../images/course/back_deco_t.png) right center no-repeat;
+		}
+.catTravel h3 {
+	border-bottom:3px solid #FFAC11;
+	color:#FFAC11;
+	}
+	.catTravel h3 span {
+		background:url(../../images/course/front_deco_t.png) left center no-repeat,
+		url(../../images/course/back_deco_t.png) right center no-repeat;
+		}
+.catTravel #FirstArea dt {
+	background:#FFAC11;
+}
+	.catTravel #FirstArea dd {
+		border:3px solid #FFAC11;
+		}
+	.catTravel #curricArea .listes li:before,
+	.catTravel #FirstArea dd li:before {
+		content: "●";
+		color:#FFAC11;
+		}
+	.catTravel .w-curriculum {
+		background:url(../../images/course/ico_plus_t.gif) center top no-repeat;
+		}
+	
+	.catTravel .SubHeadTit {
+		color:#FFAC11;
+		}
+
+/*___エアライン___*/
+.catAirLine h2 {
+	background:url(../../images/course/bg_secondtit_a.png) right bottom no-repeat;
+	border-bottom:3px solid #3ABFF0;
+	color:#3ABFF0;
+	}
+	.catAirLine h2 span {
+		background:url(../../images/course/front_deco_a.png) left center no-repeat,
+		url(../../images/course/back_deco_a.png) right center no-repeat;
+		}
+.catAirLine h3 {
+	border-bottom:3px solid #3ABFF0;
+	color:#3ABFF0;
+	}
+	.catAirLine h3 span {
+		background:url(../../images/course/front_deco_a.png) left center no-repeat,
+		url(../../images/course/back_deco_a.png) right center no-repeat;
+		}
+.catAirLine #FirstArea dt {
+	background:#3ABFF0;
+}
+	.catAirLine #FirstArea dd {
+		border:3px solid #3ABFF0;
+		}
+	.catAirLine #curricArea .listes li:before,
+	.catAirLine #FirstArea dd li:before {
+		content: "●";
+		color:#3ABFF0;
+		}
+	.catAirLine .w-curriculum {
+		background:url(../../images/course/ico_plus_a.gif) center top no-repeat;
+		}
+
+#appliArea {
+	background: url(../../images/index/bg_dot.png) left top;
+	border-radius: 3px;
+	padding:10px;
+	}
+	#appliArea li {
+		text-align:center;
+	}
+	#appliArea li:first-child {
+		margin-bottom:10px;
+	}
+	#appliArea li img {
+		width:100%;
+	}
+#oshigotoArea dl {
+	/*width:175px;*/
+	float:left;
+	/*margin-right:20px;*/
+	margin-top:15px;
+	width:48%;
+	}
+	#oshigotoArea dl:nth-child(even) {
+		float:right;
+	}
+
+#oshigotoArea dt {
+	text-align:center;
+	margin-bottom:15px;
+	border-radius:3px;
+}
+#oshigotoArea dd img {
+	width:100%;
+}
+#oshigotoArea h3 {
+	margin-bottom:15px;
+	}
+#voiceArea {
+	margin-bottom:15px;
+}
+
+#PickUpLessons,
+#voiceArea section {
+	background-image: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.3) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.3) 75%, transparent 75%, transparent);
+	background-image: linear-gradient(-45deg, rgba(255,255,255,0.3) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0.3) 75%, transparent 75%, transparent);
+	background-size: 20px 20px;/*数字を大きくすれば太く、小さくすれば細くなります。*/
+	padding:10px;
+	margin-bottom:15px;
+	}
+	#PickUpLessons h3,
+	#voiceArea h3 {
+		border-bottom:none!important;
+		font-family: 'Chewy', cursive;
+		font-size:2em;
+		line-height:1;
+		margin-bottom:-10px;
+	}
+	#voiceArea section div {
+		background:#FFF;
+		padding:5px;
+	}
+	#voiceArea section div dl {
+		padding-top:15px;
+		}
+	#PickUpLessons dt,
+	#voiceArea section div dt {
+		font-size:15px;
+		font-weight:bold;
+		margin-bottom:10px;
+		}
+	#voiceArea section div img {
+		height:200px;
+		margin-top:-10px;
+		margin-right:15px;
+		margin-left:10px;
+		float:left;
+		}
+	#voiceArea section .voiceName {
+		color:#666;
+		margin-bottom:15px;
+		}
+	#voiceArea section .voiceName:before {
+		content: "●";
+		color:#F00;
+		}
+/*20150512追加*/
+	#voiceArea section dd.subTitle {
+		color:#666;
+		font-size: 13px;
+		font-weight: bold;
+		padding:4px 0 3px ;
+		margin: 0 0 0 10px;
+		}
+	#voiceArea section dd.voice {
+		margin: 0 10px 10px 15px;
+		}
+
+
+/*20150428追加*/
+	#voiceArea.gTeacher section div img {
+		width:50%;
+		height:auto!important;
+		margin:0 15px 10px 0;
+		float:left;
+		}
+	#voiceArea.gTeacher dd.subTitle{
+		color:#666;
+		font-size: 13px;
+		font-weight: bold;
+		padding:4px 0 3px ;
+		margin: 0 0 0 10px;
+		}
+	#voiceArea.gTeacher dd.voice{
+		margin: 0 10px 10px 15px;
+		}
+	#voiceArea a {
+		display:inline-block;
+		border-radius:4px;
+		padding:5px 2px;
+	}
+/*bridal_area*/
+.catBridal #PickUpLessons,
+.catBridal #voiceArea section {
+	background-color:#FF669F;
+	}
+	
+	.catBridal #oshigotoArea dt {
+		background:#FCDCE3;
+		}
+	.catBridal #voiceArea h3 {		
+			color:#FF669F;
+			}
+	.catBridal #PickUpLessons dt,
+	.catBridal #voiceArea section div dt {
+			color:#FF669F;
+			}
+	.catBridal #voiceArea section .voiceName:before {		
+			color:#FF669F;
+			}
+	/*20150513追加*/
+	.catBridal #voiceArea.gTeacher dd.subTitle{
+			color:#FF669F;
+			}
+	.catBridal #voiceArea section dd.subTitle {
+			color:#FF669F;
+			}
+	.catBridal #voiceArea a {
+		border:1px solid #FF669F;
+		background:#FFECF3;
+	}		
+/*ceremony_area*/
+.catCeremony #PickUpLessons,
+.catCeremony #voiceArea section {
+	background-color:#813D7B;
+	}
+	.catCeremony #oshigotoArea dt {
+		background:#F8E3FD;
+		}
+	.catCeremony #voiceArea h3 {		
+			color:#813D7B;
+			}
+	.catCeremony #PickUpLessons dt,
+	.catCeremony #voiceArea section div dt {
+			color:#813D7B;
+			}
+	.catCeremony #voiceArea section .voiceName:before {		
+			color:#813D7B;
+			}
+	/*20150511追加*/
+	.catCeremony #voiceArea.gTeacher dd.subTitle{
+			color:#813D7B;
+			}
+	.catCeremony #voiceArea section dd.subTitle {
+			color:#813D7B;
+			}
+	
+/*hotel_area*/
+.catHotel #PickUpLessons,
+.catHotel #voiceArea section {
+	background-color:#5CC120;
+	}
+	.catHotel #oshigotoArea dt {
+		background:#ECFBE3;
+		}
+	.catHotel #voiceArea h3 {		
+			color:#5CC120;
+			}
+	.catHotel #PickUpLessons dt,
+	.catHotel #voiceArea section div dt {
+			color:#5CC120;
+			}
+	.catHotel #voiceArea section .voiceName:before {		
+			color:#5CC120;
+			}
+/*travel_area*/
+.catTravel #PickUpLessons,
+.catTravel #voiceArea section {
+	background-color:#FFAC11;
+	}
+	.catTravel #oshigotoArea dt {
+		background:#FFF6D3;
+		}
+	.catTravel #voiceArea h3 {		
+			color:#FFAC11;
+			}
+	.catTravel #PickUpLessons dt,
+	.catTravel #voiceArea section div dt {
+			color:#FFAC11;
+			}
+	.catTravel #voiceArea section .voiceName:before {		
+			color:#FFAC11;
+			}
+	/*20160201追加*/
+	.catTravel #voiceArea.gTeacher dd.subTitle{
+			color:#FFAC11;
+			}
+	.catTravel #voiceArea section dd.subTitle {
+			color:#FFAC11;
+			}
+/*airline_area*/
+.catAirLine #PickUpLessons,
+.catAirLine #voiceArea section {
+	background-color:#3abff0;
+	}
+	.catAirLine #oshigotoArea dt {
+		background:#E7FAFA;
+		}
+	.catAirLine #voiceArea h3 {		
+			color:#3ABFF0;
+			}
+	.catAirLine #PickUpLessons dt,
+	.catAirLine #voiceArea section div dt {
+			color:#3ABFF0;
+			}
+	.catAirLine #voiceArea section .voiceName:before {		
+			color:#3ABFF0;
+			}
+	/*20150428追加*/
+	.catAirLine  #voiceArea.gTeacher dd.subTitle{
+			color: #3abff0;
+			}
+	.catAirLine  #voiceArea section dd.subTitle {
+			color: #3abff0;
+			}
+#PickUpLessons {
+	margin:10px;
+	}
+#PickUpLessons h3 {
+	color:#FFF;
+	}
+#PickUpLessons img {
+	float:left;
+	width:140px;
+	margin-right:15px;
+}
+	#PickUpLessons div {
+		background:#FFF;
+		padding:10px;
+		margin-bottom:15px;
+		}
+	#PickUpLessons div:last-child {
+		margin-bottom:0;
+		}
+/*index_________________________________*/
+#CourseIndex h2 {
+	margin:0 10px;
+	}
+		#CourseIndex h2 img {
+			width:100%;
+		}
+	#CourseIndex ul li:last-child {
+		border-bottom:none;
+	}
+#CourseIndex ul {
+	margin:0 10px 20px 10px;
+	}
+/*ブライダル*/
+#NavB ul {
+	border:1px solid #FF6699;
+	background:#FFF;
+	border-radius:0 0 5px 5px;
+	}
+#NavB li {
+		margin:0 3px;
+		border-bottom:1px dotted #FF6699; 
+	}
+	#NavB li a {
+		display:block;
+		padding:10px 0 10px 25px;
+		background:url(../../images/course/arrowB.gif) 2px center no-repeat;
+		color:#FF6699;
+		}
+/*セレモニー*/
+#NavC ul {
+	border:1px solid #813D7B;
+	background:#FFF;
+	border-radius:0 0 5px 5px;
+	}
+#NavC li {
+		margin:0 3px;
+		border-bottom:1px dotted #813D7B; 
+	}
+	#NavC li a {
+		display:block;
+		padding:10px 0 10px 25px;
+		background:url(../../images/course/arrowC.gif) 2px center no-repeat;
+		color:#813D7B;
+		}
+/*ホテル＆リゾート*/
+#NavH ul {
+	border:1px solid #5CC120;
+	background:#FFF;
+	border-radius:0 0 5px 5px;
+	}
+#NavH li {
+		margin:0 3px;
+		border-bottom:1px dotted #5CC120; 
+	}
+	#NavH li a {
+		display:block;
+		padding:10px 0 10px 25px;
+		background:url(../../images/course/arrowH.gif) 2px center no-repeat;
+		color:#5CC120;
+		}
+/*トラベル＆レジャー*/
+#NavT ul {
+	border:1px solid #FFAC11;
+	background:#FFF;
+	border-radius:0 0 5px 5px;
+	}
+#NavT li {
+		margin:0 3px;
+		border-bottom:1px dotted #FFAC11; 
+	}
+	#NavT li a {
+		display:block;
+		padding:10px 0 10px 25px;
+		background:url(../../images/course/arrowT.gif) 2px center no-repeat;
+		color:#FFAC11;
+		}
+
+/*エアライン*/
+#NavA ul {
+	border:1px solid #3ABFF0;
+	background:#FFF;
+	border-radius:0 0 5px 5px;
+	}
+#NavA li {
+		margin:0 3px;
+		border-bottom:1px dotted #3ABFF0; 
+	}
+	#NavA li a {
+		display:block;
+		padding:10px 0 10px 25px;
+		background:url(../../images/course/arrowA.gif) 2px center no-repeat;
+		color:#3ABFF0;
+		}
+.information {
+	margin: 0 20px;
+	padding: 8px;
+	background-color: #F1E2FA;
+	border: 3px solid #920A83;  
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */
+	text-align:center; 
+}
+
+/* ----------------------------------------
+event
+---------------------------------------- */
+#eventTop section a {
+	display:block;
+	background-size: 15px 20px;
+	}
+#eventTop section img {
+	float:left;
+	margin:0 15px 10px 0;
+	width:91px;
+}
+.trialBridal {
+	border-top:5px solid #FF6699;
+	}
+	.trialBridal a {
+		color:#FF6699;
+		background:url(../../images/event/trial/arrow_B.png) 97% center no-repeat;
+		}
+.trialCeremony {
+	border-top:5px solid #BF76BA;
+	}
+	.trialCeremony a {
+		color:#BF76BA;
+		background:url(../../images/event/trial/arrow_C.png) 97% center no-repeat;
+		}
+.trialHotel {
+	border-top:5px solid #80CE32;
+}
+	.trialHotel a {
+		color:#80CE32;
+		background:url(../../images/event/trial/arrow_H.png) 97% center no-repeat;
+		}
+.trialTravel {
+	border-top:5px solid #F7BA05;
+}
+	.trialTravel a {
+		color:#F7BA05;
+		background:url(../../images/event/trial/arrow_T.png) 97% center no-repeat;
+		}
+.trialRailroad {
+    border-top: 5px solid #f60;
+}
+	.trialRailroad a {
+		color:#F60;
+		background:url(../../images/event/trial/arrow_R.png) 97% center no-repeat;
+		}
+.trialAirline {
+	border-top:5px solid #3ABFF0;
+}
+	.trialAirline a {
+		color:#3ABFF0;
+		background:url(../../images/event/trial/arrow_A.png) 97% center no-repeat;
+		}
+.trialSpecial {
+	border-top:5px solid #AD873F;
+}
+	.trialSpecial a {
+		color:#AD873F;
+		background:url(../../images/event/trial/arrow_S.png) 97% center no-repeat;
+		}
+
+
+/*
+	#voiceArea section div img.ver2 {
+		width: 50%;
+		height: auto!important;
+  		margin: 0 15px 10px 0;
+  		}*/
+
+
+ul.Pickup li a {
+	background:linear-gradient(to bottom, #F8ECFF 0, #FEFDFF 100%) ;
+	
+	background:-webkit-gradient(linear, center top, center bottom, 
+	from(#F8ECFF), 
+	to(#FEFDFF));
+	
+	background:-moz-linear-gradient(top center,
+	#F8ECFF 0, 
+	#FEFDFF 100%);
+	
+	background:linear-gradient(center top, center bottom, 
+	#F8ECFF 0, 
+	#FEFDFF 100%);
+	
+	border:1px solid #D980C0;
+	
+	width:95%;
+	margin:0 auto;
+	padding:10px 0;
+	border-radius:5px;
+}
+
+ul.Pickup li {
+	width:100%;
+	float:none;
+	margin-bottom:10px;
+}
+	ul.Pickup li a {
+		width:97%;
+		text-align:left;
+		display:block;
+	}
+	ul.Pickup img {
+		width:91px;
+		height:91px;
+		margin-left:10px;
+	}
+	ul.Pickup p {
+		color:#333;
+		}
+	ul.Pickup p + p {
+		margin-left:10px;
+		}	
+    ul.Pickup li h3 {
+	border:none!important;
+	color:#880D7B!important;
+	padding: 0 0 15px;
+}
+ul.blog li a {
+	text-align:left;
+	display:block;
+	background:url("../img/arrow_thin.png") no-repeat scroll right 7px center / 9px 26px, linear-gradient(to bottom, #F8ECFF 0, #FEFDFF 100%) ;
+	
+	background:url("../img/arrow_thin.png") no-repeat scroll right 7px center / 9px 26px, -webkit-gradient(linear, center top, center bottom, 
+	from(#F8ECFF), 
+	to(#FEFDFF));
+	
+	background:url("../img/arrow_thin.png") no-repeat scroll right 7px center / 9px 26px, -moz-linear-gradient(top center,
+	#F8ECFF 0, 
+	#FEFDFF 100%);
+	
+	background:url("../img/arrow_thin.png") no-repeat scroll right 7px center / 9px 26px, linear-gradient(center top, center bottom, 
+	#F8ECFF 0, 
+	#FEFDFF 100%);
+	
+	border:1px solid #D980C0;
+	
+	width:95%;
+	margin:0 auto;
+	padding:10px 0;
+	border-radius:5px;
+	background:;
+}
+
+ul.blog li {
+	width:100%;
+	float:none;
+	margin-bottom:10px;
+}
+	/*ul.blog li a {
+		width:97%;
+	}*/
+	ul.blog img {
+		width:91px;
+		height:91px;
+		margin-left:10px;
+	}
+
+ul.blog p {
+		color:#333;
+	    margin-right:20px;
+	    margin-left:10px;
+		}
+h4.purpleTit {
+    background-color: #920a83;
+    background-image: url("../../images/index/listmk_title.png"), url("../../images/index/titlebg.png");
+    background-position: 5px center, left bottom;
+    background-repeat: no-repeat, repeat-x;
+    background-size: 13px 23px, 320px 80px;
+    border-top: 1px solid #920a83;
+    color: #fff;
+    letter-spacing: 0.2em;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-decoration: blink;
+    width: 100%;
+}
+h4.purpleTit span {
+    display: inline-block;
+    font-size: 153%;
+    font-weight: bold;
+    padding: 5px 30px;
+}
+ul.blog li h3 {
+	border:none!important;
+	color:#880D7B!important;
+}
+
+ul.blog li h5 {
+	border:none!important;
+	color:#880D7B!important;
+	font-size: 18px;
+    margin-left: 15px;
+    padding: 0 0 10px;
+}
+
+ul.blog li p.date {
+	float:right;
+	font-size:12px;
+	padding-top:5px;
+}
+
+ul.blog_tr li a {
+	text-align:left;
+	display:block;
+	background:linear-gradient(to bottom, #FFF7E6 0, #FFFDF9 100%) ;
+	
+	background:-webkit-gradient(linear, center top, center bottom, 
+	from(#FFF7E6), 
+	to(#FFFDF9));
+	
+	background:-moz-linear-gradient(top center,
+	#FFF7E6 0, 
+	#FFFDF9 100%);
+	
+	background:linear-gradient(center top, center bottom, 
+	#FFF7E6 0, 
+	#FFFDF9 100%);
+	
+	border:1px solid #ffac11;
+	
+	width:97%;
+	margin:0 auto;
+	padding:10px 0;
+	border-radius:5px;
+	background:;
+}
+
+ul.blog_tr li {
+	width:100%;
+	float:none;
+	margin-bottom:10px;
+}
+	ul.blog_tr img {
+		width:91px;
+		height:91px;
+		margin-left:10px;
+	}
+
+ul.blog_tr p {
+		color:#333;
+	    margin-right:10px;
+	    margin-left:10px;
+		}
+ul.blog_tr li h3 {
+	border:none!important;
+	color:#ffac11!important;
+	padding: 0 0 15px;
+	/*font-size: 18px;
+    margin-left: 15px;*/
+}
+
+ul.blog_tr li p.date {
+	float:right;
+	font-size:12px;
+	padding-top:5px;
+	margin-top:0;
+	background:none;
+}
+
+
+
+/* Box Height
+------------------------- */
+ul.Pickup li a:after,
+#PickUpLessons div:after,
+#FirstArea > p:after,
+#voiceArea section div:after,
+#oshigotoArea:after,
+.oneWorldInner:after,
+.oneOverSea:after,
+#appliArea:after {
+	display: block;
+	visibility: hidden;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+	
+	
+	
+	
+	* html ul.Pickup li a:after,
+	* html #PickUpLessons div,
+	* html #FirstArea > p,
+	* html #voiceArea section div,
+	* html #oshigotoArea,
+	* html .oneWorldInner,
+	* html .oneOverSea,
+	* html #appliArea {
+		zoom: 1;
+	} /* IE6 */
+	
+	*:first-child+html ul.Pickup li a:after,
+	*:first-child+html #PickUpLessons div,
+	*:first-child+html #FirstArea > p,
+	*:first-child+html #voiceArea section div,
+	*:first-child+html #oshigotoArea,
+	*:first-child+html .oneWorldInner,
+	*:first-child+html .oneOverSea,
+	*:first-child+html #appliArea {
+		zoom: 1;
+	} /* IE7 */
+
+/* 2016/8/22追加 */
+.eventbtnBox {
+	background: url(../../images/index/bg_dot.png) left top;
+	border-radius: 3px;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	}
+
+.eventbtnBox:after {
+	display: block;
+	visibility: hidden;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+
+.eventbtnBox .btnBoximg {
+	margin:auto 10%;
+	display:-wekit-flex;
+	display: flex;
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
+}
+
+.eventbtnBox .btnBoximg p {
+	width:49%;
+	display: inline-block;
+}
+
+.eventbtnBox .btnBoximg img {
+	width:100%;
+}
+
+	

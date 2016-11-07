@@ -1,0 +1,1 @@
+<p class="JoinBtn mt20"><a href="http://www.com-forms.jp/appform/form/index/id/hospitality_bus" target="_blank">ƒoƒX‚ð\‚µž‚Þ</a></p>

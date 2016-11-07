@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^(.*)bridal_ceremony.php$ http://jikei-hospitality.ac.jp/course/bridal.php$1 [R=301,L]
+RewriteRule ^(.*)restaurant_management.php$ http://jikei-hospitality.ac.jp/course/sommelier.php$1 [R=301,L]
+RewriteRule ^(.*)travel_leisure.php$ http://jikei-hospitality.ac.jp/course/travel.php$1 [R=301,L]
+RewriteRule ^(.*)tour_planner.php$ http://jikei-hospitality.ac.jp/course/tour_conductor.php$1 [R=301,L]

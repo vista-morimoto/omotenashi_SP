@@ -1,0 +1,608 @@
+@charset "Shift-JIS";
+/*
+ * top.css
+ *
+ */
+
+/*
+#topWrapper section {
+		width:310px;
+		margin:0 auto;
+		font-size:16px;
+	}
+*/
+body {
+	background:url(../../images/index/bg_dot.png);
+	}
+
+	.mainBtn {
+		background: url(../img/icoMaruArrow.png) 20px center no-repeat,-moz-linear-gradient(top,#FF4645 0%,#FF1614);
+		background: url(../img/icoMaruArrow.png) 20px center no-repeat,-webkit-gradient(linear, left top, left bottom, from(#FF4645), to(#FF1614));
+		
+		background-size:15px 15px,auto;
+		-moz-background-size:15px 15px,auto;
+		-webkit-background-size:15px 15px,auto;
+	
+		border: 3px solid #FFF;
+		color: #FFF;
+		border-radius: 100px;
+		-moz-border-radius: 100px;
+		-webkit-border-radius: 100px;
+		-moz-box-shadow: 1px 1px 3px rgba(000,000,000,0.3);
+		-webkit-box-shadow: 1px 1px 3px rgba(000,000,000,0.3);
+		text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+		/*width: 100px;*/
+		padding: 5px 0;
+		margin:10px;
+	}
+		.mainBtn a {
+			display:block;
+			width:100%;
+			padding:2px 10px;
+			text-align:center;
+			color:#FFF;
+		}
+		.mainBtn a small {
+			background:#FFF;
+			color:#000;
+			display:inline-block;
+			padding:3px;
+			border-radius: 3px;
+			font-size:12px!important;
+			text-shadow:none;
+			}
+
+/*在校生・卒業生の声*/
+
+div.stVoicetit{
+	margin-top:20px;
+	background:#FE6988 url(../../img/bgTit.png) left center;
+}
+ div.stVoicetittxt{
+	margin-left:0px;
+	float:left;
+	width:260px;
+}
+div.stVoicetit > img{
+	margin-top:-10px;
+	margin-left:10px;
+	float:left;
+}
+.stVoicetittxt h2{
+		border-radius: 5px 5px 0 0 / 5px 5px 0 0;
+		-webkit-border-radius: 5px 5px 0 0 / 5px 5px 0 0;
+		-moz-border-radius: 5px 5px 0 0 / 5px 5px 0 0;
+		padding:5px 0 3px 0;
+		font-weight:bold;
+		color:#FFF;
+		clear:both;
+}
+
+div.stVoicetittxt h2 > span > em{
+	background:url(../../img/bg_net-pattern.gif);
+	display:inline-block;
+	padding:5px;
+	font-size:12px!important;
+	color:#000;
+}
+
+section.stVoice h3{
+	background:#FE6988 url(../../img/bgTit.png) left center;
+	border-radius: 3px;
+	color:#FFF;
+	margin-top:5px;
+	padding:5px 0 3px 5px;
+}
+
+section.stVoice h3.half{
+	/*width:172px;*/
+	display:inline-table;
+	width:100%;
+	float:right;
+}
+
+/*学校について*/
+section#aboutSchool ul {
+    border-right: 1px solid #DCF1EA;
+    border-left: 1px solid #DCF1EA;
+	}
+section#aboutSchool li {
+    border-bottom: 1px solid #DCF1EA;
+	background:#F9FDFC url(../../img/arrpwGreen.png) 98% center no-repeat;
+	background-size:16px 27px;	
+    float: left;
+    width: 50%;
+	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+
+section#aboutSchool li:nth-child(odd){
+	border-right:1px solid  #DCF1EA;
+	}	
+section#aboutSchool li a {
+	color:#339F74;
+	}
+section#aboutSchool h2 {
+	background:#76BFA9 url(../../img/bgTit.png) left center;
+	}
+	section#aboutSchool h2 > span {
+		border-bottom:3px solid #3C9474;
+	}
+/*体験入学*/
+section#aboutEvent ul {
+    border-right: 1px solid #FECBD3;
+    border-left: 1px solid #FECBD3;
+	}
+	section#aboutEvent li {
+		border-bottom: 1px solid #FECBD3;
+		background:#FEF5F7 url(../../img/arrpwPink.png) 98% center no-repeat;
+		background-size:16px 27px;	
+	}
+section#aboutEvent li a dt {
+	color:#FD5571;
+	}
+section#aboutEvent li a dd {
+	color:#292929;
+	}
+section#aboutEvent h2 {
+	background:#FE87A0 url(../../img/bgTit.png) left center;
+	}
+	section#aboutEvent h2 > span {
+		border-bottom:3px solid #FD4B68;
+	}
+section#aboutEvent li em {
+    border: 2px solid #FD5571;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+	float:left;
+	margin:0 5px 5px 0;
+	}
+section#aboutEvent li img {
+	border: 2px solid #FFFFFF;
+	}
+
+/*学校生活*/
+section#aboutEnta ul {
+    border-right: 1px solid #D3EFF5;
+    border-left: 1px solid #D3EFF5;
+	}
+	section#aboutEnta li {
+		border-bottom: 1px solid #D3EFF5;
+		background:#F7FCFD url(../../img/arrpwBlue.png) 98% center no-repeat;
+		background-size:16px 27px;
+	}
+section#aboutEnta h2 {
+	background:#39A2C7 url(../../img/bgTit.png) left center;
+	}
+	section#aboutEnta h2 > span {
+		border-bottom:3px solid #146FA2;
+	}
+section#aboutEnta li em {
+    border: 2px solid #379FC1;
+    border-radius: 3px 3px 3px 3px;
+    display: inline-block;
+	float:left;
+	margin:0 5px 5px 0;
+	}
+	section#aboutEnta li img {
+		border: 2px solid #FFFFFF;
+		}
+section#aboutEnta li figure {
+	width:100px;
+	float:left;
+}
+section#aboutEnta li figcaption {
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	color:#379FC1;
+	}
+section li a:after {
+	display: block;
+	visibility: hidden;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+/* BoxHeight
+------------------------- */
+section > div:after,
+section#aboutSchool ul:after {
+	display: block;
+	visibility: hidden;
+	content: ".";
+	clear: both;
+	height: 0;
+	font-size: 0;
+	line-height: 0;
+}
+
+
+/*_ここからリニューアル分_*/
+.information {
+	margin: 0 20px;
+	padding: 8px;
+	background-color: #F1E2FA;
+	border: 3px solid #920A83;  
+	border-radius: 5px;        /* CSS3草案 */  
+    -webkit-border-radius: 5px;    /* Safari,Google Chrome用 */  
+    -moz-border-radius: 5px;   /* Firefox用 */
+	text-align:center; 
+}
+
+/* icoNavi ------------------------------------------------------------------- */
+.btnArea {
+	padding: 5px 10px;
+}
+
+.btnArea li.left {
+	clear: both;
+}
+
+.btnArea li {
+	float: left;
+	padding: 5px 0;
+	text-align: center;
+	width: 33%;	
+}
+
+.btnArea li a {
+	display: block;
+	height: 86px;
+	width: 100%;
+}
+
+.btnArea li p {
+	height: 86px;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 86px;
+}
+
+/* タイトルのベース ------------------------------------------------------------------- */
+
+
+section h2 {
+	width: 100%;
+	color : #fff;
+	line-height: 1.2;
+	letter-spacing: 0.2em;
+	
+	background-color: #920a83;
+	background-image: url(../../images/index/listmk_title.png) ,url(../../images/index/titlebg.png);
+	background-repeat: no-repeat, repeat-x;
+	background-position: 5px center,left bottom;
+	background-size: 13px 23px,320px 80px;
+	
+	margin-bottom: 10px;
+	border-top: solid #920a83 1px;
+	text-decoration: blink;
+}
+
+
+section h2 span {
+	width: 100%;
+	border-top:solid #fff 1px;
+	
+	padding-top:5px;
+	padding-bottom:10px;
+	
+	font-size: 18px!important;
+	display:block!important;
+	/*min-height:40px;*/
+}
+
+
+
+
+/* taiken ------------------------------------------------------------------- */
+
+.taiken {
+	margin: 5px 0px;
+}
+.taiken ul li:nth-child(odd) {
+		width:50%;
+		float:left;
+		text-align:center;
+		margin-bottom: 10px;
+}
+.taiken ul li:nth-child(even) {
+		width:50%;
+		float:right;
+		text-align:center;
+		margin-bottom: 10px;
+}
+
+/*追加分*/
+
+
+/*
+.bgGoldset {
+	background:linear-gradient(to bottom, #F3F0DE 0, #FEFEF5 100%) ;
+	
+	background:-webkit-gradient(linear, center top, center bottom, 
+	from(#F3F0DE), 
+	to(#FEFEF5));
+	
+	background:-moz-linear-gradient(top center,
+	#F3F0DE 0, 
+	#FEFEF5 100%);
+	
+	background:linear-gradient(center top, center bottom, 
+	#F3F0DE 0, 
+	#FEFEF5 100%);
+	
+	border:1px solid #EBCF99;
+	}
+
+.bgPinkset {
+	background:linear-gradient(to bottom, #FFECF2 0, #FFF7FF 100%) ;
+	
+	background:-webkit-gradient(linear, center top, center bottom, 
+	from(#FFECF2), 
+	to(#FFF7FF));
+	
+	background:-moz-linear-gradient(top center,
+	#FFECF2 0, 
+	#FFF7FF 100%);
+	
+	background:linear-gradient(center top, center bottom, 
+	#FFECF2 0, 
+	#FFF7FF 100%);
+	
+	border:1px solid #FF8EC7;
+	}
+.bgGreenset {
+	background:linear-gradient(to bottom, #EEF9E3 0, #FEFDFF 100%) ;
+	
+	background:-webkit-gradient(linear, center top, center bottom, 
+	from(#EEF9E3), 
+	to(#FEFDFF));
+	
+	background:-moz-linear-gradient(top center,
+	#EEF9E3 0, 
+	#FEFDFF 100%);
+	
+	background:linear-gradient(center top, center bottom, 
+	#EEF9E3 0, 
+	#FEFDFF 100%);
+	
+	border:1px solid #9BD95E;
+	}
+.bgYellowset {
+	background:linear-gradient(to bottom, #FEF3D3 0, #FEF9E9 100%) ;
+	
+	background:-webkit-gradient(linear, center top, center bottom, 
+	from(#FEF3D3), 
+	to(#FEF9E9));
+	
+	background:-moz-linear-gradient(top center,
+	#FEF3D3 0, 
+	#FEF9E9 100%);
+	
+	background:linear-gradient(center top, center bottom, 
+	#FEF3D3 0, 
+	#FEF9E9 100%);
+	
+	border:1px solid #EBB105;
+	}
+.bgBlueset {
+	background:linear-gradient(to bottom, #DBF3FD 0, #F5FCFE 100%) ;
+	
+	background:-webkit-gradient(linear, center top, center bottom, 
+	from(#DBF3FD), 
+	to(#F5FCFE));
+	
+	background:-moz-linear-gradient(top center,
+	#DBF3FD 0, 
+	#F5FCFE 100%);
+	
+	background:linear-gradient(center top, center bottom, 
+	#DBF3FD 0, 
+	#F5FCFE 100%);
+	
+	border:1px solid #2EBAEF;
+	}
+.bgPuple01set {
+	background:linear-gradient(to bottom, #E8EBFF 0, #FDFEFF 100%) ;
+	
+	background:-webkit-gradient(linear, center top, center bottom, 
+	from(#E8EBFF), 
+	to(#FDFEFF));
+	
+	background:-moz-linear-gradient(top center,
+	#E8EBFF 0, 
+	#FDFEFF 100%);
+	
+	background:linear-gradient(center top, center bottom, 
+	#E8EBFF 0, 
+	#FDFEFF 100%);
+	
+	border:1px solid #7666B7;
+	}
+.bgPuple02set {
+	background:linear-gradient(to bottom, #F8ECFF 0, #FEFDFF 100%) ;
+	
+	background:-webkit-gradient(linear, center top, center bottom, 
+	from(#F8ECFF), 
+	to(#FEFDFF));
+	
+	background:-moz-linear-gradient(top center,
+	#F8ECFF 0, 
+	#FEFDFF 100%);
+	
+	background:linear-gradient(center top, center bottom, 
+	#F8ECFF 0, 
+	#FEFDFF 100%);
+	
+	border:1px solid #D980C0;
+	}
+*/
+/*end追加分*/
+
+.taiken ul li {
+	text-align:center!important;
+	}
+	.taiken ul li:empty {
+		background: url(../../images/index/taiken_noimage.png) center center no-repeat;
+		background-size:140px 98px;
+		-moz-background-size:140px 98px;
+		-webkit-background-size:140px 98px;
+		
+		opacity: .35; /* Standard: FF gt 1.5, Opera, Safari */
+		filter: alpha(opacity=35); /* IE lt 8 */
+		-ms-filter: "alpha(opacity=35)"; /* IE 8 */
+		-khtml-opacity: .35; /* Safari 1.x */
+		-moz-opacity: .35; /* FF lt 1.5, Netscape */		
+		}
+.taiken ul li a {
+	display: block;
+}
+.taiken figure {
+	text-align:center;
+}
+.taiken figure span {
+	display: inline-block;
+	/*border: solid #920a83 1px;*/
+	border: solid #D980C0 1px;
+	width:142px;
+}
+.taiken img {
+	width:140px;
+	height:98px;
+	border:solid #fff 1px;
+}
+
+/*Course*/
+.course div {
+	width:98%;
+	margin:0 auto;
+	}
+	section.course div li:last-child {
+		border-bottom:none!important;
+		}
+	.course h3 {
+		padding-bottom:0;
+	}
+	.course h3 img {
+		width:100%;
+		}
+
+/*campuslife*/
+/*.campusBnr {
+	width:100%;
+	display:table;
+}
+.campusBnr li {
+	display:table-cell;
+	text-align:center;
+	width:50%;
+}
+.campusBnr a {
+	display:block;
+	padding:10px;
+}
+.campusBnr a img {
+	width:100%;
+}
+*/
+
+
+/*Pickup*/
+.taiken ul li a {
+	background:linear-gradient(to bottom, #F8ECFF 0, #FEFDFF 100%) ;
+	
+	background:-webkit-gradient(linear, center top, center bottom, 
+	from(#F8ECFF), 
+	to(#FEFDFF));
+	
+	background:-moz-linear-gradient(top center,
+	#F8ECFF 0, 
+	#FEFDFF 100%);
+	
+	background:linear-gradient(center top, center bottom, 
+	#F8ECFF 0, 
+	#FEFDFF 100%);
+	
+	border:1px solid #D980C0;
+	
+	width:95%;
+	margin:0 auto;
+	padding:10px 0;
+	border-radius:5px;
+}
+
+.taiken ul.Pickup li {
+	width:100%;
+	float:none;
+}
+	.taiken ul.Pickup li a {
+		width:97%;
+		text-align:left;
+	}
+	.taiken ul.Pickup img {
+		width:91px;
+		height:91px;
+		margin-left:10px;
+	}
+	.taiken ul.Pickup p {
+		color:#333;
+		}
+	.taiken ul.Pickup p + p {
+		margin-left:10px;
+		}
+
+.taiken h3 {
+	color:#880D7B;
+	font-size:18px;
+	margin-left:15px;
+	padding: 5px 0 10px ;
+	}
+
+/*施設設備*/
+.jCarousel {
+	margin: 0 auto;
+	margin-bottom: 15px;
+	text-align: center;
+	-webkit-transition: margin 0.5s ease-in-out;
+	transition: margin 0.5s ease-in-out;
+	test-align: center;
+}
+
+/* Instagram
+------------------------------------------------------------*/	
+#insta {
+  margin:10px;
+	}
+#insta .list_insta {
+  float: left;
+  width: 33%;
+  height:102px;
+  
+  text-align: center;
+  box-sizing: border-box;
+  padding-right: 1px;
+  margin-bottom: 1px;
+  
+  position: relative;
+  overflow:hidden!important;
+  background:#EFEFEF;
+  border-right:1px solid #fff;
+  }
+#insta .list_insta img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
+  }
+#insta .list_insta a {
+	padding:0!important;
+  }
